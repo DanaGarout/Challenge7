@@ -2,55 +2,77 @@ body {
     margin: 0;
     text-align: center; 
     font-family: 'Roboto', sans-serif;
-    
+    background: #F5F5F5;;
     font-size: 13px;
+    font-weight: 400;
+}
+section,
+.post-section,
+.post-image,
+.icon-section,
+.likes,
+.username,
+.divider{
+    width: 580px;
+    
+}
+.logo,
+.profile-pic,
+.avatar,
+.name-loc
+{
+    height: 50px;
+}
+.profile-pic,
+.avatar{
+    width: 50px;
+    border-radius: 50%;
+}
+header,
+.container,
+.icon-section{
+    display: flex;
+}
+.name-loc,
+.like-num,
+.caption{
+    text-align: left;
+}
+.container,
+.icon-section{
+    padding: 10px;
+}
+header,
+section{
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.location,
+.text-span{
     font-weight: 400;
 }
 /* Header */
 header{
     border-bottom: 1px solid lightgray;
     width: 570px;
-    margin: 0 auto;
     padding: 5px;
-    display: flex;
     flex-direction: column;
-    /* box-shadow: 10px 10px 8px #888888; */
-    
 }
 .logo{
-    height: 50px;
     width: 127px;
     float: left;
 }
-.avatar-pen{
-    width: 50px;
-    height: 50px;
-    float: right;
-    border-radius: 50%;
+.profile-pic{
+   float: right;
 }
 /* Layout */
-section{
-    width: 570px;
-    margin: 0 auto;
-    
-}
-.part-1{
-    display: flex;
+.container{
     flex-direction: row;
     align-items: left;
     justify-content: left;
-    padding: 10px;
-    
 }
-.avatar-vangogh{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+.avatar{
     margin-right: 5px;
-}
-.name-loc{
-    height: 50px;
-    text-align: left;
 }
 .name{
     font-size: 13px;
@@ -58,19 +80,32 @@ section{
     line-height: 16px;
     font-weight: 700;
 }
+
 .location{
     font-size: 11px;
-    font-weight: 400;
     line-height: 15px;
     margin-top: 0;
 }
-.post-section{
-    height: 570px;
-    width: 570px;
-}
+.post-section,
 .post-image{
-    width: 570px;
-    height: 570px;
+    height: 580px;
+}
+.icon{
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+.like-num,
+.caption{ 
+    font-weight: 700;
+    font-size: 12px;
+    padding-left: 10px;
 }
 
+.divider{
+    border: 1px solid #F5F5F5;
+    height: 20px;
+    background: #F5F5F5;;
 
+}
